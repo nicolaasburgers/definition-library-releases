@@ -1,7 +1,8 @@
 # DefinitionLibrary
-Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.
+Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.  Please read the Wiki for documentation: https://github.com/nicolaasburgers/definition-library-releases/wiki 
 
-DefinitionLibrary offers a searchable library, with version history, for your files and clusters - hosted in GitHub.  It consists of a top-level menu offering functions like:
+### Summary
+DefinitionLibrary offers a searchable library for your files and clusters, with version history and with the files and meta data hosted in GitHub.  It consists of a top-level menu in the Grasshopper window, and pop-up windows, offering functions like:
 - publishing definitions (i.e. files and clusters, including nested clusters) to the library, and new versions thereof
 - comparing current file & clusters on the canvas with the library so you can update to the latest version, or roll back to previous versions
 - downloading files (at a particular version) from the library to a local directory
