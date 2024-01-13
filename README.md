@@ -1,7 +1,16 @@
 # DefinitionLibrary
 Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.
 
+DefinitionLibrary offers a searchable library, with version history, for your files and clusters - hosted in GitHub.  It consists of a top-level menu offering functions like:
+- publishing definitions (i.e. files and clusters, including nested clusters) to the library, and new versions thereof
+- comparing current file & clusters on the canvas with the library so you can update to the latest version, or roll back to previous versions
+- downloading files (at a particular version) from the library to a local directory
+- importing a cluster (at a particular version) from the library and place it on the canvas
+- setting up optional Azure Application Insights tracking of definition open, close and solve (calculate) events
+
 There is also a YouTube channel containing videos about this plug-in: https://www.youtube.com/@definitionlibrary
+
+The plug-in is currently in the alpha stage so currently all versions of the installer binaries have expiry dates; after these dates, you will need to download and install an updated version of the plug-in.  There might be different kinds of restrictions for the upcoming beta version, and introducting a small fee for the production version is under consideration.
 
 ### How to get yourself up and running with DefinitionLibrary
 #### 1. Install using one of the binaries
