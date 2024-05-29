@@ -2,20 +2,26 @@
 Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.  Please read the Wiki for documentation: https://github.com/nicolaasburgers/definition-library-releases/wiki 
 
 ### Summary
-DefinitionLibrary offers a searchable library for your files and clusters, with version history and with the files and meta data hosted in GitHub.  It consists of a top-level menu in the Grasshopper window, and pop-up windows, offering functions like:
+DefinitionLibrary offers searchable cloud library, with version histories, for your files and clusters. It currently supports GitHub as a storage plaform, with more platforms to come and stores:
+- binary .gh files (including clusters, which are saved as .gh files)
+- text files containing meta data, and 
+- markdown files containing version-agnostic basic documentation for the definition
+
+The aim in developing DefinitionLibrary was to help individuals and teams manage a set of Grasshopper files and clusters that makes re-using logic safer and easier, and improving productivity in the process.
+
+It consists of a top-level menu in the Grasshopper window, and pop-up windows, offering functions like:
 - publishing definitions (i.e. files and clusters, including nested clusters) to the library, and new versions thereof
-- comparing current file & clusters on the canvas with the library so you can update to the latest version, or roll back to previous versions
+- updating (including rolling back to a previous version) of published clusters in the current file
 - downloading files (at a particular version) from the library to a local directory
 - importing a cluster (at a particular version) from the library and place it on the canvas
 - setting up optional Azure Application Insights tracking of definition open, close and solve (calculate) events
 
 There is also a YouTube channel containing videos about this plug-in: https://www.youtube.com/@definitionlibrary
 
-The plug-in is currently in the alpha stage so currently all versions of the installer binaries have expiry dates; after these dates, you will need to download and install an updated version of the plug-in.  There might be different kinds of restrictions for the upcoming beta version, and introducting a small fee for the production version is under consideration.
+The plug-in is currently in the beta stage and is currently free to use.  When it transitions into production a small per-person-per-year fee will apply.
 
 ### How to get yourself up and running with DefinitionLibrary
-#### 1. Install using one of the binaries
-Either as a YAK package, manually using the ZIP package by extracting the files and copying (and unblocking file-by-file if necessary) into a new folder you create inside your `%appdata%\Grasshopper\Libraries` folder, or using the (unsigned!) MSI installer
+Install using PackageManager.  DefinitionLibrary can be found on PackageManager, with the "include pre-releases" checkbox ticked.
 
 #### 2. Run through this once-off GitHub set-up procedure
 This video shows you how to configure your GitHub account, obtain a Client ID, create a repository and save the details of these in your DefinitionLibrary settings:
