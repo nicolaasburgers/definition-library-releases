@@ -2,18 +2,18 @@
 Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.  Please read the Wiki for documentation: https://github.com/nicolaasburgers/definition-library-releases/wiki 
 
 ### Summary
-DefinitionLibrary offers searchable cloud library, with version histories, for your files and clusters. It currently supports GitHub as a storage plaform, with more platforms to come and stores:
-- binary .gh files (including clusters, which are saved as .gh files)
+DefinitionLibrary offers searchable cloud library, with version histories, for your Grasshopper files, clusters and Hops definitions. It currently supports GitHub as a storage plaform, with more platforms to come and stores:
+- binary .gh files (all definitions, encompassing files, clusters and Hops definitions are saved as .gh files in the library)
 - text files containing meta data, and 
 - markdown files containing version-agnostic basic documentation for the definition
 
-The aim in developing DefinitionLibrary was to help individuals and teams manage a set of Grasshopper files and clusters that makes re-using logic safer and easier, and improving productivity in the process.
+The aim in developing DefinitionLibrary was to help individuals and teams manage a set of Grasshopper files, clusters and Hops definitions that makes re-using logic safer and easier, and improving productivity in the process.
 
 It consists of a top-level menu in the Grasshopper window, and pop-up windows, offering functions like:
-- publishing definitions (i.e. files and clusters, including nested clusters) to the library, and new versions thereof
-- updating (including rolling back to a previous version) of published clusters in the current file
+- publishing definitions to the library, and new versions thereof
+- updating (including rolling back to a previous version) of published clusters and Hops definitions in the current file
 - downloading files (at a particular version) from the library to a local directory
-- importing a cluster (at a particular version) from the library and place it on the canvas
+- importing a cluster or Hops definition (at a particular version) from the library and place it on the canvas
 - setting up optional Azure Application Insights tracking of definition open, close and solve (calculate) events
 
 There is also a YouTube channel containing videos about this plug-in: https://www.youtube.com/@definitionlibrary
