@@ -1,21 +1,26 @@
 # DefinitionLibrary
+
+### Elevator pitch
+Teams working together with Grasshopper find it difficult to catalog and version their shared Grasshopper resources and end up with unnecessary re-work. DefinitionLibrary enables teams to create searchable, version controlled external library of their files, snippets, clusters and script code across multiple platforms. It saves time by enabling easy discovery and re-use of previous work. It offers what is possible using several software tools into a simple UI inside Grasshopper itself and uses teams' own GitHub and Microsoft resources.
+
+### How to use this guide
 Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.  Please read the Wiki for documentation: https://github.com/nicolaasburgers/definition-library-releases/wiki 
 
 ### Summary
-DefinitionLibrary offers searchable cloud library, with version histories, for your Grasshopper files, clusters, Hops definitions and (coming soon) snippets and script code (C# and Python). It currently supports GitHub as a storage plaform, with SharePoint, OneDrive and local/network folders coming soon, and stores:
+DefinitionLibrary offers searchable cloud library, with version histories, for your Grasshopper files, clusters, Hops definitions and snippets and script code (C# and Python). It currently supports GitHub as a storage plaform, with SharePoint, OneDrive and local/network folders, and stores:
 - binary .gh files (all Grasshopper files, clusters, Hops definitions and snippets are saved as .gh files in the library)
-- pure C# and Python source code (coming soon)
+- pure C# and Python source code
 - meta data, either in separate text files or attached to the files themselve 
 - markdown files containing version-agnostic basic documentation for the definition
 
 The aim in developing DefinitionLibrary was to help individuals and teams manage a set of Grasshopper logic that makes re-use logic safer and easier, and thereby improving productivity.
 
 It consists of a top-level menu in the Grasshopper window, and pop-up windows, offering functions like:
-- publishing new definitions and script code (coming soon) to the library
-- publishing new versions of definitions and script code (coming soon) to the library
+- publishing new definitions and script code to the library
+- publishing new versions of definitions and script code to the library
 - updating (including rolling back to a previous version) of published definitions or script code used in the currently-open file
-- downloading files (at a particular version) from the library to a local directory
-- importing a cluster, Hops definition or snippet (coming soon) at a particular version from the library and place it on the canvas
+- downloading files from the library to a local directory
+- importing a cluster, Hops definition or snippet at a particular version from the library and place it on the canvas
 - setting up optional Azure Application Insights tracking of definition open, close and solve (calculate) events
 
 There is also a YouTube channel containing videos about this plug-in: https://www.youtube.com/@definitionlibrary
