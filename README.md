@@ -1,7 +1,7 @@
 # DefinitionLibrary
 
 ### Elevator pitch
-Teams working together with Grasshopper find it difficult to catalog and version their shared Grasshopper resources and end up with unnecessary re-work. DefinitionLibrary enables teams to create searchable, version controlled external library of their files, snippets, clusters and script code across multiple platforms. It saves time by enabling easy discovery and re-use of previous work. It offers what is possible using several software tools into a simple UI inside Grasshopper itself and uses teams' own GitHub and Microsoft resources.
+Teams working together with Grasshopper find it difficult to catalog and version their shared Grasshopper resources and end up with unnecessary re-work. DefinitionLibrary enables teams to store copies of their files, snippets, clusters and script code in a searchable, version controlled external library across multiple platforms. It saves time by enabling easy discovery and re-use of previous work. It offers what is possible using several software tools into a simple UI inside Grasshopper itself and uses teams' own GitHub and Microsoft resources.
 
 ### How to use this guide
 Use the links on this page to find installation files, documentation, issue tracking and discussions related to the DefinitionLibrary plug-in for Grasshopper.  Please read the Wiki for documentation: https://github.com/nicolaasburgers/definition-library-releases/wiki 
